@@ -1,0 +1,419 @@
+
+/** WxWeb CSS **/
+/** Copyright 2011 MichiganWxSystem **/
+
+body {
+	background:#D9F0FB;
+    margin:0px;
+    text-align:center;
+    font-size:1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre{
+    font-size:.89em;
+    color:#000;
+    font-weight:bold;
+}
+
+#head{
+       background:#065C86;
+        height:120px; 
+        width:100%; 
+        text-align:left;
+        margin:0px;
+        vertical-align:middle;
+    }
+    #head>div {
+        width: 800px; 
+        margin: 0 auto; 
+        padding: 15px 0 0;
+        background:transparent;
+        border-left: #CCC solid 1px;
+        border-right: #CCC solid 1px;
+        height:105px;
+        }
+  #head p.title{
+       font-size:2.2em;
+       margin: 10px 0  0; 
+       padding: 0; 
+       color: #eee; 
+       font-weight: normal; 
+       
+    }       .
+
+.centermain {
+    background:#fff;
+    width: 800px;
+    border:1px solid #000;
+    margin-left:auto;
+    margin-right:auto;
+}
+#footer{
+       background:#065C86;
+        height:120px; 
+        width:100%; 
+        text-align:center;
+        margin:0px;
+        vertical-align:middle;
+    }
+    #footer a {
+        color:#fff;
+        }
+
+ /** top info bar **/
+    
+    #topinfo{
+        width:100%;
+        height:45px;
+        margin-top:5px; 
+        margin-bottom:2px;
+        background: transparent;
+        
+        font-family:arial;
+        color:#dadada;
+        font-size:1em;
+        font-weight:normal;
+        line-height:18px;
+        display: table;
+        #position: relative; 
+        overflow: hidden;
+        text-align:left;
+    }
+    #topinfo>div{
+        height: 40px;
+        vertical-align:middle;
+        border-radius: 5px; 
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px;
+        #position: absolute; 
+        #top: 50%;
+        display: table-cell; 
+    }
+    
+     #topinfo .name{
+        width:100%;
+        background:transparent;
+        text-align:left;
+        font-size:1.65em;
+        color:#065C86;       
+        line-height:18px;
+        
+     }
+    
+    #topinfo .info{
+        color:#065C86;
+        background:transparent;
+        font-size:1.05em;
+        
+    }
+
+
+/* ######### CSS for sub menu container below ######### */
+#arealink {
+margin-left:auto;
+margin-right:auto;
+width:100%;
+margin-top:3px;
+font-size:1em;
+}
+
+.tabsarealink ul {
+overflow:hidden;
+width:auto;
+margin:2px;
+padding:2px;
+list-style-type:none;
+}
+
+.tabsarealink li {
+-moz-border-radius-topleft:4px;
+-webkit-border-top-left-radius:4px;
+-khtml-border-top-left-radius:4px;
+border-top-left-radius:4px;
+-moz-border-radius-topright:4px;
+-webkit-border-top-right-radius:4px;
+-khtml-border-top-right-radius:4px;
+border-top-right-radius:4px;
+background:#dadada;
+border-top:1px solid #065C86;
+border-right:1px solid #065C86;
+border-left:1px solid #065C86;
+padding:2px;
+margin:2px;
+float:left;
+color:#065C86;
+margin-right:1px;
+text-decoration:none;
+font-size:.88em;
+font-family: arial,sans-serif;
+font-weight:normal;
+}
+
+.tabsarealink li a:hover {
+background:#c0c0c0;
+font-weight:normal;
+float:left;
+}
+
+.tabsarealink a {
+display:block;
+padding:2px;
+font-weight:normal;
+color:#065C86;
+margin-right:1px;
+text-decoration:none;
+font-size:.88em;
+font-weight:normal;
+}
+
+.tabsarealink .silent {
+margin:2px;
+padding:3px;
+text-align:center;
+background:#cdcdcd;
+color:#065C86;
+margin-right:1px;
+text-decoration:none;
+font-size:.88em;
+font-weight:normal;
+}
+
+.tabsarealink .active {
+margin:2px;
+padding:3px;
+text-align:center;
+background:#bababa;
+color:#065C86;
+margin-right:1px;
+text-decoration:none;
+font-size:.88em;
+font-weight:normal;
+}
+
+/**css for dwmlall template **/
+
+#dwmlall{
+    
+    background:#E2F3FB;
+    
+    font-size:1em;
+}
+#dwmlall .daytitles{
+    font-size:.75em;
+    color:#065c86;
+    font-weight:bold;
+}
+#dwmlall .daywx{
+    font-size:.65em;
+    color:#000;
+    font-weight:normal;
+}
+
+/** css for dwmlvert **/
+
+#dwmlfull{
+    font-size:1em;
+    margin-top:5px;
+}
+
+#dwmlfull .sechead{
+    background:transparent;
+    font-size:.77em;
+    color:#065c86;
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+    text-align:left;
+    vertical-align:middle;
+    width:100%;
+    height:25px;
+}
+#dwmlfull .inner{
+    background:transparent;
+}
+#dwmlfull .date{
+    font-size:.75em;
+    color:#065c86;
+    font-weight:bold;
+}
+#dwmlfull .daycast{
+    font-size:.70em;
+    color:#000;
+    font-weight:normal;
+    text-align:left;
+}
+#dwmlfull .even{
+    background:#E2F3FB;
+}
+
+/** Tabular (hourly)  **/
+#tabular{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    font-size:1em;
+}
+#tabular .tabdata{
+    border-spacing:1px;
+    border:0px;
+}
+
+#tabular .head{
+    background:#d0d0d0;
+    font-size:.85em;
+    color:#065c86;
+    font-weight:normal;
+}
+#tabular .data{
+    
+    font-size:.78em;
+    color:#000;
+    font-weight:normal;
+}
+#tabular .even{
+    background:#E2F3FB
+}
+#tabular .odd{
+    background:transparent;
+}
+
+/** warnings **/
+#warnings{
+    text-align:left;
+    font-size:1em;
+    font-weight:bold;
+}
+#warnings .warntitle{
+    font-size:1.1em;
+    font-weight:bold;
+    color:#FF0000;
+    
+}
+#warnings .datebold{
+    font-size:.89em;
+}
+#warnings .date{
+    font-size:.89em;
+    font-weight:normal;
+}
+#warnings pre{
+    font-size:.89em;
+    color:#000;
+    font-weight:normal;
+    font-family:arial;
+}
+
+/** history **/
+#history{
+    font-size:1em;
+}
+#history .trhead{
+    font-size:.89em;
+    font-weight:bold;
+    color:#065c86;
+    background:#c0c0c0;
+}
+#history .even{
+    background:#E2F3FB;
+    font-size:.75em;
+    font-weight:normal;
+}
+#history .odd{
+    background:transparent;
+    font-size:.75em;
+    font-weight:normal;
+    
+}
+ #stateextra {
+margin-left:auto;
+margin-right:auto;
+width:100%;
+margin-top:3px;
+font-size:1em;
+
+}
+  
+.stateextraclass ul {
+overflow:hidden;
+width:auto;
+margin:0px;
+padding:2px;
+list-style-type:none;
+
+}
+
+.stateextraclass li {
+
+background:transparent;
+padding:1px;
+margin:0px;
+float:left;
+}
+
+.stateextraclass li a:hover {
+background:#dadada;
+float:left;
+}
+
+.stateextraclass a {
+display:block;
+padding:4px;
+color:#065c86;
+margin-right:1px;
+text-decoration:none;
+font:bold .65em arial,sans-serif;
+}
+
+.stateextraclass a:hover,.stateextraclass a.selected {
+background:transparent;
+color:#065c86;
+}
+
+#rawdata{
+    text-align:left;
+    font:bold 1em arial,sans-serif;
+    color:#000;
+}
+
+#astro 
+{
+    font-size:1em;
+    color:#065c86;
+}
+#astro .sechead{
+    font-size:.77em;
+    font-weight:bold;
+    text-align:left;
+}
+
+#astro .tdname{
+    font-weight:bold;
+    font-size:.70em;
+}
+#astro .tdvalue{
+    font-weight:normal;
+    font-size:.70em;
+}
+
+#metar 
+{
+    font-size:1em;
+    color:#065c86;
+}
+#metar .sechead{
+    font-size:.77em;
+    font-weight:bold;
+    text-align:left;
+}
+
+#metar .tdname{
+    font-weight:bold;
+    font-size:.70em;
+}
+#metar .tdvalue{
+    font-weight:normal;
+    font-size:.70em;
+}
+#metar .temp{
+    font-weight:bold;
+    font-size:2em;
+}

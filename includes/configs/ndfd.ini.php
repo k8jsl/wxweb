@@ -1,0 +1,74 @@
+<?
+
+/*
+
+widespread frost=frost|25.png|25.png
+Areas fog=Rain/Fog|20.png|20.png
+fog=Fog|20.png|20.png
+dense fog=Rain/Fog|20.png|20.png
+patchy fog=Rain/Fog|20.png|20.png
+PARTLY CLOUDY=Partly Cloudy|30.png|29.png
+MOSTLY CLOUDY=Mostly Cloudy|28.png|27.png
+MOSTLY SUNNY=Mostly Sunny|32.png|31.png
+PARTLY SUNNY=Partly Sunny|28.png|27.png
+PARTLY CLOUDY=Partly Cloudy|28.png|27.png
+SEVERE TSTMS=severe weather|0.png|0.png
+TSTRMS=T-Storms|37.png|47.png
+Thunderstorms=T-Storms|37.png|47.png
+Chance Tstms=Chance T-Storms|37.png|47.png
+scattered TSTMS=Sct T-Storms|37.png|47.png
+Slight Chc Tstms=Slt Ch T-Storms|37.png|47.png
+Thunderstorms LIKELY=T-Storms|37.png|47.png
+HOT=Very Hot|36.png|36.png
+Very HOT=Very Hot|36.png|36.png
+CLEAR=Clear|32.png|31.png
+sunny=sunny|32.png|32.png
+MAINLY CLOUDY=Mostly Cloudy|26.png|26.png
+CLOUDY=Cloudy Periods|26.png|26.png
+CLOUDY PERIODS=Cloudy Periods|30.png|29.png
+partly sunny=partly sunny|30.png|29.png
+increasing clouds=Cloudy Periods|26.png|26.png
+becoming sunny=becoming sunny|30.png|29.png
+scattered clouds=scattered clouds|30.png|29.png
+mostly CLEAR=Clear|32.png|31.png
+WINDY=Windy|24.png|23.png
+BLUSTERY=Windy|24.png|23.png
+DRY=Dry|32.png|31.png
+WINDY=Windy|24.png|23.png
+breezy=Windy|24.png|23.png
+moderate rain=rain|40.png|40.png
+rain=rain|40.png|40.png
+scattered SHOWERs=Scattered Showers|39.png|45.png
+CHANCE SHOWERs=Chance of Showers|39.png|45.png
+slight CHANCE rain SHOWERs=Chance of Showers|39.png|45.png
+rain SHOWERs=Chance of Showers|39.png|45.png
+rain likely=Chance of Showers|39.png|45.png
+rain SHOWERs likely=Chance of Showers|39.png|45.png
+sHOWERs likely=Chance of Showers|39.png|45.png
+slight CHC SHOWERs=Chance of Showers|39.png|45.png
+CHANCE RAIN=Chance of Rain|39.png|45.png
+CHANCE sprinkles=Chance of Rain|39.png|45.png
+drizzle=drizzle|39.png|45.png
+chance drizzle=drizzle|39.png|45.png
+decreasing clouds=Cloudy Periods|30.png|29.png
+moderate snow=snow|16.png|16.png
+snow=snow|13.png|13.png
+flurries=blah|6.png|6.png
+slight chc fzgdz=mixed precip|7.png|7.png
+chance freezing drizzle=fzrn|7.png|7.png
+snow or sleet=mixed precip|7.png|7.png
+rain or sleet=mixed precip|7.png|7.png
+rain or snow=mixed precip|5.png|5.png
+drizzle or snow=mixed|5.png|5.png
+rain or snow likely=mixed precip|5.png|5.png
+chance rain or snow=mixed precip|5.png|5.png
+slight chance rain or snow=mixed precip|5.png|5.png
+slight chc rain or snow=mixed precip|5.png|5.png
+wintry mix=mixed precip|5.png|5.png
+slight chance snow showers=chance snow showers|6.png|6.png
+slight chc snow=chance snow showers|6.png|6.png
+snow showers likely=chance snow showers|14.png|14.png
+Chance Flurries=flurries|6.png|6.png
+smoke=smoke|22.png|22.png
+*/
+?>
