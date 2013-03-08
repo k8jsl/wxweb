@@ -1,0 +1,20 @@
+#bkgrnd {background:#0A2390; height:587px; width:618px; position:relative; left:14px; top:0px; font-size:1em;}
+#bkgrnd_sector {background:#0A2390; height:595px; width:618px; position:relative; left:14px; top:0px;}
+#bkgrnd_lite_sector {background:#85b6dd; height:595px; width:618px; position:relative; left:14px; top:0px;}
+#datetime, #datetime1, #datetime2, #datetime3, #datetime4, #datetime5, #datetime6 {position:relative; width:618px; left:14px; top:0px;}
+#basemap, #image0, #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9 {position:absolute; left:9px; top:9px;}
+#basemap img, #image0 img, #image1 img, #image2 img, #image3 img, #image4 img, #image5 img, #image6 img, #image7 img, #image8 img, #image img9, table.nav img, table.sector img {border-style:none;}
+#toggles {position:absolute; top:563px; left:62px; color:White;}
+#sectors {position:absolute; top:660px; width:645px;}
+#overDiv {position:absolute; visibility:hidden; top:-50px; z-index:1000;}
+#tabs {position:relative; left:0px; top:0px;}
+.tabwhite {color:White; font-weight:bold; font-size:70%;}
+table.sector {border-collapse:collapse;}
+table.sector td a {display:block; width:4.6em; padding:3px}
+table.sector td a:link, table.sector td a:visited {background:#FFFFFF;}
+table.sector td a:hover, table.sector td a:active {background:#0A2390;}
+table.nav, table.sector {margin-left:auto; margin-right:auto; text-align:center;}
+.nav { border: 1px solid #660000;}
+label {font-size:.70em;}
+#tab_bkgrnd1, #tab_bkgrnd2, #tab_bkgrnd3, #tab_bkgrnd4, #tab_bkgrnd5, #tab_bkgrnd6 {background-image: url(http://radar.weather.gov/ridge/graphics/tab_bkgrnd.gif); width:124px; height:34px;}
+#tab_lite_bkgrnd1, #tab_lite_bkgrnd2, #tab_lite_bkgrnd3, #tab_lite_bkgrnd4, #tab_lite_bkgrnd5, #tab_lite_bkgrnd6  {background-image: url(graphics/tab_lit_bkgrnd.gif); width:124px; height:34px;}
