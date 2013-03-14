@@ -6,7 +6,7 @@
    * @author Mark Scarbrough <markscarbrough@gmail.com>
    * @Copyright 2011 Jeff Lake MichiganWxSystem.com
    *
-   * // <!-- phpDesigner :: Timestamp -->1/5/2013 16:29:16<!-- /Timestamp -->
+   * // <!-- phpDesigner :: Timestamp -->3/13/2013 22:48:46<!-- /Timestamp -->
    * @author MichiganWxSystem/ByTheLakeWebDevelopment sales@michiganwxsystem.com
    * @copyright 2012
    * @package WxWebApi
@@ -46,7 +46,7 @@
   			{
   						if (!$dwmlSimpleXml = @simplexml_load_string($dwmlRaw))
   						{
-  									echo "no xml support";
+  								//	echo "no xml support";
   						}
   						// Sanity check
   						if (!@$dwmlSimpleXml->data->{'time-layout'})
