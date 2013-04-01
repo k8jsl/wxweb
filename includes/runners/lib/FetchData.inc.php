@@ -1,7 +1,7 @@
 <?php
 
 		/**
-		 * // <!-- phpDesigner :: Timestamp -->3/1/2013 14:05:57<!-- /Timestamp -->
+		 * // <!-- phpDesigner :: Timestamp -->3/31/2013 20:44:18<!-- /Timestamp -->
 		 * @author MichiganWxSystem/ByTheLakeWebDevelopment sales@michiganwxsystem.com
 		 * @copyright 2012
 		 * @package WxWebApi
@@ -164,7 +164,7 @@
 
 		         $html = FetchData::cURL($domain, $postfix);
 
-		         if ($html != '' && !preg_match('/Page Not Found|WxWeb Error|404.+Not Found|[^\*]error\s+?\d+\b/is', $html))
+		         if (!preg_match('/Page Not Found|WxWeb Error|404.+Not Found|[^\*]error\s+?\d+\b/is', $html))
 		         {
 		            if (file_exists(CACHE . '/' . $cache))
 		               unlink(CACHE . '/' . $cache);
