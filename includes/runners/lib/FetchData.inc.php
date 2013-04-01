@@ -7,7 +7,7 @@
 		 * @package WxWebApi
 		 * @name FetchData.inc.php
 		 * @version 4
-		 * @revision .04
+		 * @revision .04.1
 		 * @license http://creativecommons.org/licenses/by-sa/3.0/us/
 		 * 
 		 * 
@@ -16,7 +16,7 @@
 		class FetchData
 		{
 
-            var $VERSION = "4.04";
+            var $VERSION = "4.04.1";
 		   function __construct($debug, $form)
 		   {
 
