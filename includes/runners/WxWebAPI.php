@@ -1,7 +1,7 @@
 <?php
 
   /**
-   * // <!-- phpDesigner :: Timestamp -->3/1/2013 14:32:39<!-- /Timestamp -->
+   * // <!-- phpDesigner :: Timestamp -->4/22/2013 16:47:20<!-- /Timestamp -->
    * @author MichiganWxSystem/ByTheLakeWebDevelopment sales@michiganwxsystem.com
    * @copyright 2012
    * @package WxWebApi
@@ -26,7 +26,7 @@
   			var $smarty = '';
   			var $database = '';
   			var $fetch = '';
-  			var $version = '3.04.3';
+  			var $version = '3.04.4';
             
 
   			function __construct($debug, $form, $conf, $mysql, $smarty)

@@ -1,7 +1,7 @@
 <?php
 
   /**
-   * // <!-- phpDesigner :: Timestamp -->3/1/2013 14:23:17<!-- /Timestamp -->
+   * // <!-- phpDesigner :: Timestamp -->4/22/2013 16:47:46<!-- /Timestamp -->
    * @author MichiganWxSystem/ByTheLakeWebDevelopment sales@michiganwxsystem.com
    * @copyright 2012
    * @package DevWxWeb
@@ -11,8 +11,8 @@
    * this script requires a minimum php 5.3 and mysql 5.0.77
    */
 
-  $wxwebversion = "3.04.3";
-  $wxwebversiondate = "<!-- phpDesigner :: Timestamp -->3/1/2013 14:23:17<!-- /Timestamp -->";
+  $wxwebversion = "3.04.4";
+  $wxwebversiondate = "<!-- phpDesigner :: Timestamp -->4/22/2013 16:47:46<!-- /Timestamp -->";
   error_reporting( ~ E_NOTICE);
   $mysql = $conf = $default = $form = array();
   /**
