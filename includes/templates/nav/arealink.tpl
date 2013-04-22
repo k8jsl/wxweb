@@ -25,8 +25,12 @@ Hourly Forecast</a>
 <a href="{$wxurl}/{$scriptname}?run=wxhistory&amp;locname={$url_locname}&amp;state={$state|lower}">3 Day History</a>
 </li>
 
-<li {if $run == 'local_radar'} class="active" {else} class="silent"{/if}>
-<a href="{$wxurl}/{$scriptname}?run=nwsradar&amp;locname={$url_locname}&amp;state={$state|lower}">Local Radar</a>
+<li {if $run == 'nwsradarlite'} class="active" {else} class="silent"{/if}>
+<a href="{$wxurl}/{$scriptname}?run=nwsradarlite&amp;locname={$url_locname}&amp;state={$state|lower}">Local Radar</a>
+</li>
+
+<li {if $run == 'nwsradarliteloop'} class="active" {else} class="silent"{/if}>
+<a href="{$wxurl}/{$scriptname}?run=nwsradarliteloop&amp;locname={$url_locname}&amp;state={$state|lower}">Local Radar Loop</a>
 </li>
 </ul>
 </div>

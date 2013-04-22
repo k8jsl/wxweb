@@ -1,7 +1,7 @@
 <?php
 
   /**
-   * // <!-- phpDesigner :: Timestamp -->1/16/2013 13:08:54<!-- /Timestamp -->
+   * // <!-- phpDesigner :: Timestamp -->4/22/2013 16:20:12<!-- /Timestamp -->
    * @author MichiganWxSystem/ByTheLakeWebDevelopment sales@michiganwxsystem.com
    * @copyright 2012
    * @package WxWebApi
@@ -36,6 +36,34 @@
   			}
 
   			function fetch_radar()
+  			{
+  						$run = $this->form['run'];
+
+  						list($this->temp, $cachet, $runner) = explode("|", $this->conf[$run . '_settings']);
+
+  						$radar = (isset($this->conf['radar_icao'])) ? strtoupper($this->conf['radar_icao']) : $this->form['radar_icao'];
+  						$radtype = (isset($this->form['radtype'])) ? strtoupper($this->form['radtype']) : 'N0R';
+
+  						$url = $this->conf[$run . '_url'] . $this->conf[$run . '_url_tail'];
+
+  						$this->urlhttp = $this->conf[$run . '_url'];
+
+
+  						$radar = preg_replace('/[KPT](\w\w\w)/', "$1", $radar);
+
+  						$this->ridge_url = preg_replace("/\{(\w+)\}/e", '$$1', $url);
+  						$this->cache_file = preg_replace("/\{(\w+)\}/e", '$$1', $this->conf[$run . '_cache']);
+
+  						$this->radar_icao = $radar;
+  						$this->radtype = $radtype;
+
+  						$this->smarty->assign('radtype', $radtype);
+  						$this->smarty->assign('radar', $radar);
+
+  						$this->smarty->display($this->temp);
+
+  			}
+            function fetch_radarlite()
   			{
   						$run = $this->form['run'];
 
